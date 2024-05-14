@@ -21,9 +21,9 @@ return new class extends Migration
             $table->unsignedInteger('level_id');
             $table->timestamps();
 
-            $table->foreign('level_id')
-            ->references('id')->on('levels')
-            ->onUpdate('cascade')->onDelete('cascade');
+            // $table->foreign('level_id')
+            // ->references('id')->on('levels')
+            // ->onUpdate('cascade')->onDelete('cascade');
         });
     }
 
