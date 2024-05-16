@@ -3,9 +3,10 @@ import ApplicationLogo from '@/Components/ApplicationLogo.vue';
 </script>
 
 <template>
-    <div>
-        <button v-if="$page.props.user.permissions.includes('create roles')">Create Roles</button>
-        <button v-if="$page.props.user.permissions.includes('create lessons')">Create new Lessons</button>
+    <h1>hello world</h1>
+    <!-- <div> -->
+        <!-- <button v-if="$page.props.user.permissions.includes('create roles')">Create Roles</button>
+        <button v-if="$page.props.user.permissions.includes('create lessons')">Create new Lessons</button> -->
         <!-- <h1>{{ $page.props }}</h1> -->
         <!-- <div class="p-6 lg:p-8 bg-white border-b border-gray-200">
             <ApplicationLogo class="block h-12 w-auto" />
@@ -103,14 +104,7 @@ import ApplicationLogo from '@/Components/ApplicationLogo.vue';
                 </p>
             </div>
         </div> -->
-    </div>
+    <!-- </div> -->
 </template>
 
-<style>
-button{
-    background-color: green;
-    color: white;
-    padding: 20px;
-    margin: 5px;
-}
-</style>
+
